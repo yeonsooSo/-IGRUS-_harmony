@@ -4,9 +4,9 @@ import { Platform, StyleSheet, Text, View, Switch, Image, TextInput, TouchableOp
  from 'react-native';
 import { CreditCardInput, LiteCreditCardInput } from "react-native-credit-card-input";
 import {StackNavigator} from 'react-navigation'
-import MainScreen from './MainScreen'
-import Sub1Screen from './Sub1Screen'
-import Sub2Screen from './Sub2Screen'
+// import MainScreen from './MainScreen'
+// import Sub1Screen from './Sub1Screen'
+// import Sub2Screen from './Sub2Screen'
 
 
 export default class App extends React.Component {
@@ -77,27 +77,27 @@ export default class App extends React.Component {
     );
   }
 }
-const A = StackNavigator({
-  Main : {
-    screen : MainScreen,
-    navigationOptions: {
-      title: 'Main',
-    }
-  },
-  Sub1 : {
-    screen : Sub1Screen,
-    navigationOptions: {
-      title: 'Sub1',
-    }
-  },
-  Sub2 : {
-    screen : Sub2Screen,
-    navigationOptions: {
-      title: 'Sub2',
-    }
-  },
+// const A = StackNavigator({
+//   Main : {
+//     screen : MainScreen,
+//     navigationOptions: {
+//       title: 'Main',
+//     }
+//   },
+//   Sub1 : {
+//     screen : Sub1Screen,
+//     navigationOptions: {
+//       title: 'Sub1',
+//     }
+//   },
+//   Sub2 : {
+//     screen : Sub2Screen,
+//     navigationOptions: {
+//       title: 'Sub2',
+//     }
+//   },
 
-});
+// });
 
 const s = StyleSheet.create({
   contain:{
