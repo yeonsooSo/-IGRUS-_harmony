@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View, Button, Switch, Image, TextInput, TouchableOpacity }
  from 'react-native';
 import { CreditCardInput, LiteCreditCardInput } from "react-native-credit-card-input";
-// import {Button} from 'react-native-elements'
 
 TouchableOpacity.defaultProps = { activeOpacity: 0.8 };
 export default class App extends React.Component {
