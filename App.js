@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Alert, Button, TextInput, View, StyleSheet } from 'react-native';
 
-export default class App extends Component {
+export default class App extends Component {  
   constructor(props) {
     super(props);
     
