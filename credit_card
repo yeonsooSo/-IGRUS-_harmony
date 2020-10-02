@@ -115,8 +115,6 @@ const s = StyleSheet.create({
   below:{
     flex:8,
     backgroundColor:'white',
-    // flexDirection:'row',
-    // justifyContent:'space-around',
   },
   // switchText:{
   //   justifyContent: "center",
