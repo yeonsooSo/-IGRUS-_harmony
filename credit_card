@@ -1,4 +1,4 @@
-//App.js
+//카드 정보 입력
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View, Button, Switch, Image, TextInput, TouchableOpacity }
  from 'react-native';
@@ -13,18 +13,10 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={s.container}>
-        {/* <View style={s.icon}>
-          <TouchableOpacity style={s.icon}>
-            <Image source={require('./icon/iconX.png')}/>
-          </TouchableOpacity>
-        </View> */}
         <View>
           <Text style={s.title}> 결제 정보 등록 </Text>
         </View>
         <View style={s.container}>
-        {/* <Text sytle={s.switchText}>
-          입력방식 전환
-        </Text> */}
         <Switch
           style={s.switch}
           onValueChange={this._setUseLiteCreditCardInput}
@@ -105,7 +97,6 @@ const s = StyleSheet.create({
 
   },
   title:{
-    // flex:1,
     marginTop:6,
     fontSize:16, 
     fontWeight:'bold',
@@ -116,11 +107,6 @@ const s = StyleSheet.create({
     flex:8,
     backgroundColor:'white',
   },
-  // switchText:{
-  //   justifyContent: "center",
-  //   alignSelf:'center',
-  //   fontSize:14
-  // },
   switch: {
     alignSelf: "center",
     marginTop: 20,
@@ -152,5 +138,4 @@ const s = StyleSheet.create({
     fontWeight: "bold",
     alignSelf: "center",
   }
-
 });
