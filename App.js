@@ -17,9 +17,8 @@ export default class App extends Component {
     Alert.alert('Credentials', `${username} + ${password}`);
   }
 
-  onRegist() {
-
-  }
+//   onRegist() {
+//   }
 
   render() {
     return (
